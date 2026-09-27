@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[active,tightpage,pdftex]{preview}
+\usepackage{tikz,amsmath,amssymb,bm,color}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{circuitikz}
+\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{calc,intersections}
+\usetikzlibrary{mindmap,trees}
+\usepackage{pgfgantt}
+
+% Define page dimensions
+\newlength{\pixelwidth}
+\setlength{\pixelwidth}{%%PIXEL_WIDTH%%pt}
+\newlength{\pixelheight}
+\setlength{\pixelheight}{%%PIXEL_HEIGHT%%pt}
+
+% Set up page dimensions
+\pdfpagewidth=\pixelwidth
+\pdfpageheight=\pixelheight
+\setlength{\PreviewBorder}{0pt}
+
+% Configure preview to process tikzpicture environments
+\PreviewEnvironment{tikzpicture}
+
+% Set up TikZ to use a consistent bounding box for all tikzpicture environments
+\tikzset{
+  every picture/.style={
+    execute at begin picture={
+      \path[use as bounding box] (-\pixelwidth/2,-\pixelheight/2) rectangle (\pixelwidth/2,\pixelheight/2);
+    }
+  }
+}
+
+\begin{document}
+%%TIKZ_CODE%%
+\end{document}

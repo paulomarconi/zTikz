@@ -1,0 +1,474 @@
+{
+  "Arrow Styles": [
+    {
+      "name": "Stealth (->)",
+      "code": "\\draw[-stealth] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Stealth Reverse (<-)",
+      "code": "\\draw[stealth-] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Stealth Both (<->)",
+      "code": "\\draw[stealth-stealth] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Latex (->)",
+      "code": "\\draw[-latex] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Double Arrow (->>)",
+      "code": "\\draw[->>] (0,0) -- (1,0);"
+    },
+    {
+      "name": "To (->)",
+      "code": "\\draw[-to] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Kite (->)",
+      "code": "\\draw[-kite] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Circle (-o)",
+      "code": "\\draw[-o] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Square (-square)",
+      "code": "\\draw[-square] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Implies (=>)",
+      "code": "\\draw[-Implies, double] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Bracket ([-])",
+      "code": "\\draw[{[-]}] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Parenthesis ((-))",
+      "code": "\\draw[{(-)}] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Bar (|-|)",
+      "code": "\\draw[|-|] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Reversed Bracket (]-[)",
+      "code": "\\draw[{]-[]}] (0,0) -- (1,0);"
+    }
+  ],
+  "Colors": [
+    {
+      "name": "Red Fill",
+      "code": "\\fill[red] (0,0) rectangle (1,1);"
+    },
+    {
+      "name": "Blue Text",
+      "code": "\\node[text=blue] at (0,0) {Blue Text};"
+    },
+    {
+      "name": "Draw Color",
+      "code": "\\draw[color=green, thick] (0,0) -- (1,1);"
+    },
+    {
+      "name": "RGB Color",
+      "code": "\\fill[rgb={1,0.5,0}] (0,0) circle (0.5);"
+    },
+    {
+      "name": "Hex Color",
+      "code": "\\definecolor{mycolor}{HTML}{FF00FF}\n\\fill[mycolor] (0,0) rectangle (1,1);"
+    },
+    {
+      "name": "Opacity",
+      "code": "\\fill[red, opacity=0.5] (0,0) rectangle (1,1);"
+    },
+    {
+      "name": "Fill Opacity",
+      "code": "\\draw[fill=blue, fill opacity=0.3, thick] (0,0) rectangle (1,1);"
+    }
+  ],
+  "Line Styles": [
+    {
+      "name": "Thick Red Line",
+      "code": "\\draw[thick, red] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Dashed Line",
+      "code": "\\draw[dashed] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Dotted Line",
+      "code": "\\draw[dotted] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Ultra Thick",
+      "code": "\\draw[ultra thick] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Very Thick",
+      "code": "\\draw[very thick] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Thick",
+      "code": "\\draw[thick] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Thin",
+      "code": "\\draw[thin] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Very Thin",
+      "code": "\\draw[very thin] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Ultra Thin",
+      "code": "\\draw[ultra thin] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Densely Dashed",
+      "code": "\\draw[densely dashed] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Loosely Dashed",
+      "code": "\\draw[loosely dashed] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Densely Dotted",
+      "code": "\\draw[densely dotted] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Loosely Dotted",
+      "code": "\\draw[loosely dotted] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Dash Dot",
+      "code": "\\draw[dash dot] (0,0) -- (1,0);"
+    },
+    {
+      "name": "Dash Dot Dot",
+      "code": "\\draw[dash dot dot] (0,0) -- (1,0);"
+    }
+  ],
+  "Shapes and Nodes": [
+    {
+      "name": "Basic Node",
+      "code": "\\node at (0,0) {Text};"
+    },
+    {
+      "name": "Rectangle Node",
+      "code": "\\node[draw, rectangle] at (0,0) {Rectangle};"
+    },
+    {
+      "name": "Circle Node",
+      "code": "\\node[draw, circle] at (0,0) {Circle};"
+    },
+    {
+      "name": "Ellipse Node",
+      "code": "\\node[draw, ellipse] at (0,0) {Ellipse};"
+    },
+    {
+      "name": "Diamond Node",
+      "code": "\\node[draw, diamond] at (0,0) {Diamond};"
+    },
+    {
+      "name": "Cylinder Node",
+      "code": "\\node[draw, cylinder] at (0,0) {Cylinder};"
+    },
+    {
+      "name": "Grid",
+      "code": "\\draw[step=1cm,gray,very thin] (-2,-2) grid (2,2);"
+    },
+    {
+      "name": "Regular Polygon",
+      "code": "\\node[draw, regular polygon, regular polygon sides=5] at (0,0) {Pentagon};"
+    },
+    {
+      "name": "Star",
+      "code": "\\node[draw, star, star points=5] at (0,0) {Star};"
+    }
+  ],
+  "Circuit Diagrams (circuitikz)": [
+    {
+      "name": "Resistor",
+      "code": "\\draw (0,0) to[R, l=$R$] (2,0);"
+    },
+    {
+      "name": "Capacitor",
+      "code": "\\draw (0,0) to[C, l=$C$] (2,0);"
+    },
+    {
+      "name": "Inductor",
+      "code": "\\draw (0,0) to[L, l=$L$] (2,0);"
+    },
+    {
+      "name": "Voltage Source",
+      "code": "\\draw (0,0) to[V, v=$V$] (2,0);"
+    },
+    {
+      "name": "Current Source",
+      "code": "\\draw (0,0) to[I, i=$I$] (2,0);"
+    },
+    {
+      "name": "Ground",
+      "code": "\\draw (0,0) node[ground] {};"
+    },
+    {
+      "name": "Diode",
+      "code": "\\draw (0,0) to[D, l=$D$] (2,0);"
+    },
+    {
+      "name": "LED",
+      "code": "\\draw (0,0) to[leD, l=$LED$] (2,0);"
+    },
+    {
+      "name": "Battery",
+      "code": "\\draw (0,0) to[battery, l=$V$] (2,0);"
+    },
+    {
+      "name": "Switch",
+      "code": "\\draw (0,0) to[cspst, l=$S$] (2,0);"
+    },
+    {
+      "name": "Op-Amp",
+      "code": "\\draw (0,0) node[op amp] (opamp) {};"
+    }
+  ],
+  "Paths and Coordinates": [
+    {
+      "name": "Relative Coordinate (+)",
+      "code": "\\draw (0,0) -- +(1,1);"
+    },
+    {
+      "name": "Relative Coordinate (++)",
+      "code": "\\draw (0,0) -- ++(1,1);"
+    },
+    {
+      "name": "Polar Coordinate",
+      "code": "\\draw (0,0) -- (45:2);"
+    },
+    {
+      "name": "Bezier Curve",
+      "code": "\\draw (0,0) .. controls (1,1) and (2,1) .. (3,0);"
+    },
+    {
+      "name": "Arc",
+      "code": "\\draw (0,0) arc[start angle=0, end angle=90, radius=1];"
+    },
+    {
+      "name": "Rectangle Path",
+      "code": "\\draw (0,0) rectangle (2,1);"
+    },
+    {
+      "name": "Circle Path",
+      "code": "\\draw (0,0) circle[radius=1cm];"
+    },
+    {
+      "name": "Ellipse Path",
+      "code": "\\draw (0,0) ellipse[x radius=2cm, y radius=1cm];"
+    },
+    {
+      "name": "Intersection",
+      "code": "\\path [name intersections={of=pathA and pathB, by=intersect}];"
+    }
+  ],
+  "Trees": [
+    {
+      "name": "Basic Tree",
+      "code": "\\node {root} child {node {left}} child {node {right}};"
+    },
+    {
+      "name": "Tree with Edge Labels",
+      "code": "\\node {root} child {node {child} edge from parent node[left] {label}};"
+    },
+    {
+      "name": "Grow Right",
+      "code": "\\begin{scope}[grow=right]\n  \\node {root} child {node {child}};\n\\end{scope}"
+    }
+  ],
+  "Matrices": [
+    {
+      "name": "Basic Matrix",
+      "code": "\\matrix [matrix of nodes] {\n  1 & 2 \\\\\n  3 & 4 \\\\\n};"
+    },
+    {
+      "name": "Math Matrix",
+      "code": "\\matrix [matrix of math nodes] {\n  x & y \\\\\n  z & w \\\\\n};"
+    }
+  ],
+  "Graphs": [
+    {
+      "name": "Basic Graph",
+      "code": "\\graph { a -> {b, c} -> d };"
+    },
+    {
+      "name": "Circular Graph",
+      "code": "\\graph [simple, ring layout] { a -> b -> c -> d -> a };"
+    }
+  ],
+  "Plotting": [
+    {
+      "name": "Sine Wave",
+      "code": "\\draw plot [domain=0:2*pi] (\\x, {sin(\\x r)});"
+    },
+    {
+      "name": "Data Plot",
+      "code": "\\draw plot coordinates {(0,0) (1,1) (2,0)};"
+    },
+    {
+      "name": "Smooth Plot",
+      "code": "\\draw plot [smooth cycle] coordinates {(0,0) (1,1) (2,0)};"
+    }
+  ],
+  "Decorations": [
+    {
+      "name": "Snake Line",
+      "code": "\\draw [decorate, decoration={snake}] (0,0) -- (2,0);"
+    },
+    {
+      "name": "Zigzag Line",
+      "code": "\\draw [decorate, decoration={zigzag}] (0,0) -- (2,0);"
+    },
+    {
+      "name": "Brace",
+      "code": "\\draw [decorate, decoration={brace, amplitude=10pt}] (0,0) -- (0,2) node[midway, left=10pt] {Label};"
+    },
+    {
+      "name": "Text along Path",
+      "code": "\\path [decorate, decoration={text along path, text={Some text along a path}}] (0,0) .. controls (1,1) .. (2,0);"
+    }
+  ],
+  "Scopes and Transformations": [
+    {
+      "name": "Scope",
+      "code": "\\begin{scope}\n  % local changes here\n\\end{scope}"
+    },
+    {
+      "name": "Shift",
+      "code": "\\begin{scope}[shift={(2,2)}]\n  \\draw (0,0) -- (1,0);\n\\end{scope}"
+    },
+    {
+      "name": "Rotate",
+      "code": "\\begin{scope}[rotate=45]\n  \\draw (0,0) rectangle (1,1);\n\\end{scope}"
+    },
+    {
+      "name": "Scale",
+      "code": "\\begin{scope}[scale=2]\n  \\draw (0,0) circle (1);\n\\end{scope}"
+    },
+    {
+      "name": "Clip",
+      "code": "\\clip (0,0) circle (1);\n\\fill[red] (-2,-2) rectangle (2,2);"
+    }
+  ],
+  "Layers": [
+    {
+      "name": "Background Layer",
+      "code": "\\begin{pgfonlayer}{background}\n  \\fill[yellow] (0,0) rectangle (2,2);\n\\end{pgfonlayer}"
+    }
+  ],
+  "Effects": [
+    {
+      "name": "Drop Shadow",
+      "code": "\\node[drop shadow, fill=white, draw] {Shadowed Node};"
+    },
+    {
+      "name": "Fading",
+      "code": "\\draw[path fading=south, fill=blue] (0,0) rectangle (2,2);"
+    }
+  ],
+  "Mindmaps": [
+    {
+      "name": "Basic Mindmap",
+      "code": "\\path[mindmap, concept color=black, text=white]\n  node[concept] {Root}\n    child[concept color=red] { node[concept] {Child 1} }\n    child[concept color=blue] { node[concept] {Child 2} };"
+    }
+  ],
+  "pgfplots": [
+    {
+      "name": "2D Plot",
+      "code": "\\begin{axis}[xlabel=$x$, ylabel=$y$]\n  \\addplot[color=red, domain=-5:5, samples=50] {x^2};\n\\end{axis}"
+    },
+    {
+      "name": "3D Surface",
+      "code": "\\begin{axis}[colormap/viridis]\n  \\addplot3[surf, domain=-2:2] {exp(-x^2-y^2)};\n\\end{axis}"
+    },
+    {
+      "name": "Bar Chart",
+      "code": "\\begin{axis}[ybar, enlargelimits=0.15, symbolic x coords={A,B,C}, xtick=data]\n  \\addplot coordinates {(A,10) (B,15) (C,5)};\n\\end{axis}"
+    }
+  ],
+  "Automata": [
+    {
+      "name": "State",
+      "code": "\\node[state] (q0) {$q_0$};"
+    },
+    {
+      "name": "Initial State",
+      "code": "\\node[state, initial] (q0) {$q_0$};"
+    },
+    {
+      "name": "Accepting State",
+      "code": "\\node[state, accepting] (q1) {$q_1$};"
+    },
+    {
+      "name": "Transition Loop",
+      "code": "\\path[->] (q0) edge [loop above] node {0} (q0);"
+    },
+    {
+      "name": "Transition Edge",
+      "code": "\\path[->] (q0) edge [bend left] node {1} (q1);"
+    }
+  ],
+  "Entity-Relationship (ER)": [
+    {
+      "name": "Entity",
+      "code": "\\node[entity] (emp) {Employee};"
+    },
+    {
+      "name": "Relationship",
+      "code": "\\node[relationship] (works) {Works In};"
+    },
+    {
+      "name": "Attribute",
+      "code": "\\node[attribute] (name) {Name};"
+    }
+  ],
+  "Edge Labels": [
+    {
+      "name": "Label Above",
+      "code": "\\draw (0,0) -- node[above] {label} (2,0);"
+    },
+    {
+      "name": "Label Below",
+      "code": "\\draw (0,0) -- node[below] {label} (2,0);"
+    },
+    {
+      "name": "Label Midway",
+      "code": "\\draw (0,0) -- node[midway, auto] {label} (2,2);"
+    },
+    {
+      "name": "Label Sloped",
+      "code": "\\draw (0,0) -- node[midway, sloped, above] {label} (2,2);"
+    },
+    {
+      "name": "Label Near Start",
+      "code": "\\draw (0,0) -- node[near start, above] {label} (2,0);"
+    },
+    {
+      "name": "Label Near End",
+      "code": "\\draw (0,0) -- node[near end, above] {label} (2,0);"
+    }
+  ],
+  "Control Systems": [
+    {
+      "name": "Feedback Loop System",
+      "code": "\\draw (2.2,4.4) node[right]{Plant};\n\\draw  (1.6,4.2) rectangle (4.2,3.3) node[midway,align=center] { $\\dot{x}=f(x,u,t)$\\\\$y=h(x,u,t)$ };\n\\draw [-latex] (0.6,3.8)  -- (1.6,3.8) node[above,midway]{$u$};\n\\draw  (-1.6,4.2) rectangle (0.6,3.4) node[midway,align=center] {Controller};\n\\draw [-latex](-2.2,3.8) -- (-1.6,3.8);\n\\draw [-latex](-2.4,3.8) ellipse (0.2 and 0.2);\n\\draw [-latex](-3.4,3.8) node[above] {$r$} -- (-2.6,3.8) node[above, near end] {$+$};\n\\draw [-latex](4.2,3.8) -- (5.4,3.8) node[above] {$y$};\n\\draw [-latex](4.8,3.8) -- (4.8,3) -- (-2.4,3) -- (-2.4,3.6) node[right, near end] {$-$};"
+    },
+    {
+      "name": "Extended Feedback Loop System",
+      "code": "\\draw  (4.4,2) rectangle (5.7,1.2) node[midway,align=center] {Plant};\n\\draw  (-3.7,1.9) rectangle (-1.1,1.1) node[midway,align=center] {Controllers};\n\\draw  (2.6,2.1) rectangle (3.8,1.2);\n\\draw (2.9,1.4)  -- (3.1,1.4) -- (3.3,1.8) -- (3.5,1.8);\n\\draw [-latex](3.2,1.3) -- (3.2,2);\n\\draw [-latex](2.8,1.6) -- (3.7,1.6) ;\n\\draw (-3.5,1.9) -- (-3.5,2.1) -- (-0.9,2.1) -- (-0.9,1.3) -- (-1.1,1.3);\n\\draw [-latex](3.8,1.6) -- (4.4,1.6) node[above, midway]{$\\hat{u}$};\n\\draw  (0.2,2) rectangle (2.1,1.2) node[midway,align=center] {Actuators};\n\\draw [-latex](2.1,1.6) -- (2.6,1.6);\n\\draw [-latex](-1.1,1.5) -- (-0.5,1.5);\n\\draw [-latex](-0.9,1.7) -- (-0.5,1.7);\n\\draw (-0.5,2) -- (-0.5,1.2);\n\\draw [-latex](-0.5,1.6) -- (0.2,1.6) node[midway, above]{$u$};\n\\draw [-latex](-4.3,1.7) node[above] {$r$} -- (-3.7,1.7);\n\\draw  (1.7,0.7) rectangle (3.3,0) node[midway,align=center] {Sensors};\n\\draw [-latex](5.7,1.6) -- (6.6,1.6) node[above]{$y$};\n\\draw [-latex](6.1,1.6) -- (6.1,0.3) -- (3.3,0.3);\n\\draw [-latex](0.2,0.3) -- (-4,0.3) -- (-4,1.4) -- (-3.7,1.4);\n\\draw [-latex](1.1,0.3) -- (0.3,0.3);\n\\draw [-latex](0.7,0) -- (0.7,0.7);\n\\draw (1,0.1) -- (0.8,0.1) -- (0.6,0.5) -- (0.4,0.5);\n\\draw  (0.2,0.8) rectangle (1.2,-0.1);\n\\draw [-latex](1.7,0.3) -- (1.2,0.3);\n\\draw [-latex](2.5,-0.3) node[right]{Sensor noise} -- (2.5,0);\n\\draw [-latex](5,2.3) node[above]{Process noise}-- (5,2);"
+    },
+    {
+      "name": "LQG System",
+      "code": "\\draw  (1.8,4) rectangle (3.4,3.6) node[midway, align=center] {Plant};\n\\draw [-latex] (0.4,3.8)  -- (1.8,3.8) node[above, near end]{$u$};\n\\draw  (0.6,3.2) rectangle (1.8,2.8) node[midway, align=center] {LQR};\n\n\\draw [-latex](0.2,3.8) ellipse (0.2 and 0.2);\n\\draw [-latex](-0.6,3.8)  -- (0,3.8) node[above, near end] {$+$};\n\\draw [-latex](3.4,3.8) -- (4.6,3.8) node[above, near end] {$y$};\n\\draw [-latex](0.6,3) -- (0.2,3) -- (0.2,3.6) node[right, near end] {$-$};\n\n\\draw  (2.4,3.2) rectangle (3.6,2.8) node[midway, align=center] {KF};\n\\draw [-latex](2.4,3) -- (1.8,3) node[above, midway]{$\\hat{x}$};\n\\draw [-latex](4,3.8) -- (4,3) -- (3.6,3);\n\\draw [-latex](1.2,3.8) -- (1.2,3.5) -- (3,3.5) -- (3,3.2);\n\\draw  (-1.2,4) rectangle (-0.6,3.6) node[midway, align=center] {$k_r$};\n\\draw [-latex](-1.7,3.8) node[above] {$r$} -- (-1.2,3.8);"
+    }
+  ]
+}

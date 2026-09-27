@@ -1,0 +1,10 @@
+Welcome to zTikz Editor!
+Created by Paulo Loma Marconi https://paulomarconi.github.io
+
+Quick tips:
+- Draw shapes using the toolbar buttons.
+- Toggle the overlay button to show or hide the editable layer over the compiled preview.
+- Edit LaTeX preamble using the left tab "Preamble".
+- Navigate through your folders using the left panel "Files".
+- Zoom with Ctrl+Mouse Wheel.
+- Compilation output will appear here.

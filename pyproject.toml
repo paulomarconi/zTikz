@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ztikz"
+version = "1.0.0"
+description = "A TikZ Editor in Python/PyQt6"
+authors = [
+    {name = "paulomarconi", email = "prlomarconi@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PyQt6",
+    "PyMuPDF",
+    "antlr4-python3-runtime==4.13.2"
+]
+
+[project.scripts]
+ztikz = "zTikz.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["zTikz*"]
+
+[tool.setuptools.package-data]
+"zTikz.resources" = [
+    "*.json",
+    "*.txt",
+    "*.tex",
+    "icons/*",
+    "snippets_icons/*"
+]
+"zTikz.antlr" = [
+    "*.g4",
+    "*.interp",
+    "*.tokens"
+]

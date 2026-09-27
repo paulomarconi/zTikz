@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <!-- Smooth 'S' curve path -->
+  <path d="M 4 26 C 12 4, 20 28, 28 6" fill="#CCCCCC" stroke="black" stroke-width="3" stroke-linecap="round"/>
+  <!-- Square anchor points strictly on the curve, filled with black -->
+  <rect x="2" y="24" width="4" height="4" fill="#CCCCCC" stroke="black" stroke-width="1.5"/>
+  <rect x="14" y="14" width="4" height="4" fill="#CCCCCC" stroke="black" stroke-width="1.5"/>
+  <rect x="26" y="4" width="4" height="4" fill="#CCCCCC" stroke="black" stroke-width="1.5"/>
+</svg>

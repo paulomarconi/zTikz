@@ -1,0 +1,37 @@
+{
+    "commands": {
+        "pattern": "\\\\[a-zA-Z]+\\*?",
+        "color": "#66B2FF",
+        "bold": true
+    },
+    "braces": {
+        "pattern": "[{}]",
+        "color": "#66B2FF"
+    },
+    "numbers": {
+        "pattern": "\\b\\d+\\b",
+        "color": "#80FF80"
+    },
+    "comments": {
+        "pattern": "%.*",
+        "color": "#AAAAAA",
+        "italic": true
+    },
+    "keywords": {
+        "pattern": "\\b(begin|end|draw|node|foreach|if|then|else)\\b",
+        "color": "#FF6666",
+        "bold": true
+    },
+    "environments": {
+        "pattern": "\\\\(begin|end)\\{[a-zA-Z]+\\}",
+        "color": "#FF66FF",
+        "italic": true
+    },
+    "operators": {
+        "pattern": "[\\+\\-\\*\\/\\=]",
+        "color": "#FFB266"
+    },
+    "node_content": {
+        "color": "#FFB266"
+    }
+}
