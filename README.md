@@ -1,6 +1,6 @@
 # zTikz
 
-zTikz is a modern, graphical WYSIWYG editor for TikZ built with Python and PyQt6 inspired in [TikzEdt](http://www.tikzedt.org/). It provides a real-time, interactive overlay on top of the compiled PDF preview, allowing you to visually draw and edit TikZ shapes while seamlessly updating the underlying LaTeX code in real-time.
+zTikz is a graphical WYSIWYG editor for TikZ built with Python and PyQt6 inspired in [TikzEdt](http://www.tikzedt.org/). It provides a real-time, interactive overlay on top of the compiled PDF preview, allowing you to visually draw and edit TikZ shapes while seamlessly updating the underlying LaTeX code in real-time.
 
 <p align="center">
   <img src="zTikz/resources/icons/app_icon.svg" alt="zTikz" />
@@ -90,5 +90,5 @@ The GUI tests run headless (Qt's `offscreen` platform) and use their own tempora
 
 ## Author
 
-Developed by Paulo Loma Marconi.  
+Paulo Loma Marconi.  
 Website: [paulomarconi.github.io](https://paulomarconi.github.io)
